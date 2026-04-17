@@ -13,10 +13,10 @@ const Stats = () => {
     return (
         <div className='container mx-auto'>
             <div className='mt-20'>
-                <h1 className='font-bold text-5xl'>Friendship Analytics</h1>
+                <h1 className='font-bold text-5xl text-center md:text-start'>Friendship Analytics</h1>
             </div>
-            <div className='shadow-[0_0_15px_rgba(0,0,0,0.1)] rounded-2xl p-10 mt-5 mb-5'>
-                <p className='text-[20px] text-[#244D3F]'>By Interaction Type</p>
+            <div className='shadow-[0_0_15px_rgba(0,0,0,0.1)] mx-5 md:mx-0 rounded-2xl p-10 mt-5 mb-5'>
+                <p className='text-[20px] text-[#244D3F] text-center md:text-start'>By Interaction Type</p>
                 <div className='flex-grow flex items-center justify-center'>
                     {
                         isExist ? <div className='h-75 w-full'>
