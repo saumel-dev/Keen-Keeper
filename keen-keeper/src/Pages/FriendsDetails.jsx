@@ -59,7 +59,7 @@ const FriendsDetails = () => {
             <div className='flex flex-col md:flex-row justify-center gap-5'>
                 <div>
                     <div className='flex flex-col items-center space-y-3'>
-                        <div className='shadow-[0_0_15px_rgba(0,0,0,0.1)] rounded-md flex flex-col items-center w-70 space-y-2  py-4 px-5'>
+                        <div className='shadow-[0_0_15px_rgba(0,0,0,0.1)] rounded-md flex flex-col items-center w-70 space-y-2 py-4 px-5'>
                             <img className='w-15 rounded-full' src={picture} alt="" />
                             <p className='font-bold'>{name}</p>
                             <p className={`${statusStyle} rounded-xl text-[12px] px-2 py-0.5`}>{status}</p>
