@@ -9,7 +9,7 @@ const Navbar = () => {
         <div>
             <div className="navbar bg-base-100 shadow-sm flex px-15">
                 <div className="navbar-start">
-     
+
                     <h1 className="text-2xl font-bold">Keen<span className='green'>Keeper</span></h1>
                 </div>
                 <div className="navbar-end flex gap-5">

@@ -31,10 +31,10 @@ const FriendsDetails = () => {
             'Video': iconVideo
         }
         const dateFormate = new Date().toLocaleDateString('en-US', {
-        month: 'long',
-        day: 'numeric',
-        year: 'numeric'
-    });
+            month: 'long',
+            day: 'numeric',
+            year: 'numeric'
+        });
         const updatedFriend = { ...filteredFriend, type: type, icon: icon[type], date: dateFormate }
         if (type === 'Call') {
             toast.success(`Call with ${name}`);
@@ -51,7 +51,7 @@ const FriendsDetails = () => {
 
         setAllbtn([...allBtn, updatedFriend]);
         console.log(updatedFriend);
-        
+
     }
 
     return (

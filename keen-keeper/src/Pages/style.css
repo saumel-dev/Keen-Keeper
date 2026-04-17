@@ -1,6 +1,7 @@
 .green {
     color: #244D3F;
 }
+
 .active {
     background-color: #244D3F;
     padding: 5px;
@@ -11,6 +12,7 @@
     padding: 5px 15px;
     color: white;
 }
-.green-bg{
+
+.green-bg {
     background-color: #244D3F;
 }
