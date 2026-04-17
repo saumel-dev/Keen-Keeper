@@ -10,7 +10,7 @@ Recharts — Interactive pie chart for stats
 React Icons — Icon library
 React Toastify — Toast notifications
 
-✨ Key Features
+✨ Key Features  <br>
 👥 Friend Cards
 Browse all your connections on the home page. Each card shows the friend's name, profile picture, tags, days since last contact, and current relationship status (On-Track, Almost Due, or Overdue). <br>
 📋 Interaction Timeline
