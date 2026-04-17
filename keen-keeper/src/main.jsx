@@ -13,6 +13,7 @@ const router = createBrowserRouter([
   {
     path: '/',
     Component: Root,
+    
     children: [
       {
         index: true,
@@ -29,8 +30,8 @@ const router = createBrowserRouter([
       },
       {
         path: "/friend/:id",
-         loader: () => fetch('/data.json'),
-         Component: FriendsDetails
+        loader: () => fetch('/data.json'),
+        Component: FriendsDetails
       }
     ],
   },
