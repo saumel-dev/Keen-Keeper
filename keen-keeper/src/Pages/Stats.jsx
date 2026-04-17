@@ -11,9 +11,9 @@ const Stats = () => {
     const isExist = call.length > 0 || text.length > 0 || video.length > 0;
     const COLORS = ['#244D3F', '#6366F1', '#3ba755'];
     return (
-        <div className='container mx-auto '>
+        <div className='container mx-auto'>
             <div className='mt-20'>
-                <h1 className='font-bold text-5xl'>Friendship Analytics</h1>
+                <h1 className='font-bold text-5xl '>Friendship Analytics</h1>
             </div>
             <div className='shadow-[0_0_15px_rgba(0,0,0,0.1)] rounded-2xl p-10 mt-5 mb-5'>
                 <p className='text-[20px] text-[#244D3F]'>By Interaction Type</p>
