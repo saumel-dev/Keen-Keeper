@@ -11,7 +11,7 @@ const Stats = () => {
     const isExist = call.length > 0 || text.length > 0 || video.length > 0;
     const COLORS = ['#244D3F', '#6366F1', '#3ba755'];
     return (
-        <div className='container mx-auto'>
+        <div className='container mx-auto '>
             <div className='mt-20'>
                 <h1 className='font-bold text-5xl'>Friendship Analytics</h1>
             </div>
